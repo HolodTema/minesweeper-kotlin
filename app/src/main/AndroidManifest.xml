@@ -13,7 +13,12 @@
         android:theme="@style/Theme.MinesweeperKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.GameActivity"
+            android:exported="false"
+            android:label="@string/title_activity_game"
+            android:theme="@style/Theme.MinesweeperKotlin" />
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MinesweeperKotlin">
